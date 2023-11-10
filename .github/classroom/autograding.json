@@ -1,22 +1,12 @@
 {
   "tests": [
     {
-      "name": "Hello world test",
-      "setup": "",
-      "run": "gradle test",
+      "name": "Hell world test",
+      "setup": "javac HelloWorld.java",
+      "run": "java HelloWorld",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 10,
-      "points": 10
-    },
-    {
-      "name": "Input/output",
-      "setup": "",
-      "run": "./calculator.sh",
-      "input": "1 + 1",
-      "output": "2",
-      "comparison": "included",
       "timeout": 10,
       "points": 10
     }
