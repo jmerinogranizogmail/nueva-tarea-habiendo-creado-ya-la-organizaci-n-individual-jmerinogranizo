@@ -9,6 +9,16 @@
       "comparison": "exact",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Input/output",
+      "setup": "",
+      "run": "./calculator.sh",
+      "input": "1 + 1",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
